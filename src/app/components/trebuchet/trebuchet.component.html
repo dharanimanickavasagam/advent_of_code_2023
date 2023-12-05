@@ -1,0 +1,5 @@
+<h4 *ngIf="summedValue ===0; else showResult"> Computing ... </h4>
+
+<ng-template #showResult>
+  <h4> SummedValue is {{ summedValue}} </h4>
+</ng-template>

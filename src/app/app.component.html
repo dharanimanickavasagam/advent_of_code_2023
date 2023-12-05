@@ -1,7 +1,7 @@
-<h1> Day 1: Trebuchet?! </h1>
 
-<h4 *ngIf="summedValue ===0; else showResult"> Computing ... </h4>
+<h1> Welcome to Advent of Code 2023 Puzzles ! </h1>
 
-<ng-template #showResult>
-  <h4> SummedValue is {{ summedValue}} </h4>
-</ng-template>
+<h2><a [routerLink] = "'/day1'">Day 1 - Trebuchet</a></h2>
+<h2><a [routerLink] = "'/day2'">Day 2 - Cube Conundrum</a></h2>
+
+<router-outlet></router-outlet>
