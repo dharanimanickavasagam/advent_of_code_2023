@@ -37,8 +37,6 @@ export class TrebuchetComponent implements OnInit {
       const firstDigitIndex: any = code.search(/\d+/);
       const lastDigitIndex: any = reversedCode.search(/\d+/);
 
-      console.log("ho;a", code[firstDigitIndex]);
-
       const parsedNumber =
         "" +
         parseInt(code[firstDigitIndex][0], 10) +
