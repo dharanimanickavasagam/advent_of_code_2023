@@ -7,6 +7,7 @@ import { AppComponent } from "./app.component";
 import { TrebuchetComponent } from "./components/trebuchet/trebuchet.component";
 import { CubeConundrumComponent } from "./components/cube-conundrum/cube-conundrum.component";
 import { Day3GearRatiosComponent } from "./components/day3-gear-ratios/day3-gear-ratios.component";
+import { Day4ScratchCardsComponent } from './day4-scratch-cards/day4-scratch-cards.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { Day3GearRatiosComponent } from "./components/day3-gear-ratios/day3-gear
     TrebuchetComponent,
     CubeConundrumComponent,
     Day3GearRatiosComponent,
+    Day4ScratchCardsComponent,
   ],
   imports: [
     BrowserModule,
